@@ -39,3 +39,9 @@
 
 # debug information files
 *.dwo
+*.dSYM/
+
+# Compiled binaries (no extension) in week directories
+week*/
+!week*/*.cpp
+!week*/*.md
